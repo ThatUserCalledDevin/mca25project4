@@ -7,6 +7,8 @@ let y = 350
 let fps = 5
 let dir = 1
 
+click()
+
 function ball()
 {
     graphics.fillStyle = "white"
@@ -25,6 +27,7 @@ function clear()
 function click(e)
 {
     dir *= -1
+    console.log("confirm")
 }
 
 function move()
